@@ -1,0 +1,778 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 1rem = 16px */
+/* 1rem = 10px */
+/* 10px / 16px = 0.625 */
+/* 0.625 * 100 = 62.5% */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.67%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33333%;
+}
+
+.col-5 {
+    width: 41.66666%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.67%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.67%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* ---------header Section------------------ */
+
+header .container {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    position: fixed;
+    top: 2rem;
+    width: 100%;
+    z-index: 999;
+}
+
+header nav {
+    margin-left: auto;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header nav ul a {
+    color: white;
+    margin: 0 3.3rem;
+    text-decoration: none;
+}
+
+.icon {
+    margin-left: 3.3rem;
+    color: white;
+}
+
+#hero {
+    background-image: url(../img/15.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#hero::before {
+
+    content: '';
+    inset: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+
+
+}
+
+.Submit {
+
+    background-color: black;
+    color: white;
+    font-size: 1.8rem;
+    border-radius: 2.8rem;
+    border: 1px solid gray;
+    padding: 1.1rem 3rem;
+
+}
+
+/* --------------------Hero Section------------------- */
+
+
+.hero-data {
+
+    padding-top: 27.5rem;
+
+}
+
+.hero-data h1 {
+
+    font-size: 9rem;
+    position: relative;
+    color: white;
+    z-index: 999;
+
+}
+
+.hero-data p {
+
+    padding-top: 3.7rem;
+    font-size: 1.8rem;
+    color: white;
+
+}
+
+.Explore-data {
+
+    width: 7.30rem;
+    padding: 1.4rem 2rem 1.1rem 2rem;
+    margin-top: 1.2rem;
+    background-color: white;
+    border-radius: 4rem;
+    display: flex;
+    position: relative;
+    z-index: 999;
+    justify-content: space-between;
+
+}
+
+.Explore-data select {
+
+    border: none;
+    font-size: 2rem;
+    color: #9B9B9B;
+    font-weight: bold;
+
+}
+
+.place {
+
+    padding-top: 3.6rem;
+    font-weight: 500;
+    color: #ECECEC;
+    z-index: 999;
+    position: relative;
+
+}
+
+
+/* ------------------------------About us------------------------ */
+
+
+
+#about {
+    margin-top: 15rem;
+}
+
+.main-title {
+
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 600;
+
+}
+
+.sub-title {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2.8rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    width: 55%;
+    color: #878787;
+    line-height: 3.5rem;
+
+}
+
+.about-data {
+
+    padding-top: 8rem;
+    display: flex;
+    text-align: center;
+
+}
+
+.work {
+
+    padding-right: 2.8rem;
+}
+
+.vision {
+
+    padding: 0px 2.9rem;
+
+}
+
+.mission {
+    padding-left: 2.9rem;
+}
+
+.about-data img {
+    margin: 0 auto;
+    width: 8.8rem;
+}
+
+.about-data h3 {
+    font-size: 4.7rem;
+    font-weight: 600;
+    padding-top: 4.2rem;
+}
+
+.about-data p {
+
+    padding-top: 1.3rem;
+    color: #9B9B9B;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 3rem;
+
+}
+
+/*--------------Founder Section-------------*/
+
+
+.Founder {
+    padding-top: 8.1rem;
+    row-gap: 6rem;
+}
+
+.Sarah {
+    padding-right: 1.3rem;
+}
+
+.Sarah img {
+    width: 100%;
+    height: 549px;
+    border-radius: 15rem 0 15rem 0;
+    object-fit: cover;
+}
+
+.sarha-logo {
+    width: 7.9rem;
+}
+
+.Sarah-lorem {
+    padding-top: 8rem;
+}
+
+.Sarah-data p {
+
+    font-size: 1.8rem;
+    color: #484848;
+    font-weight: 400;
+}
+
+.Sarah-data h3 {
+
+    padding-top: 2.9rem;
+    font-size: 3.6rem;
+    font-weight: 600;
+
+}
+
+.Sarah-data h4 {
+
+    font-size: 1.8rem;
+    color: #858585;
+    font-weight: 500;
+
+}
+
+/* -----------------Packages section ---------- */
+
+#Packages {
+    margin-top: 15rem;
+}
+
+.Popular-data {
+
+    justify-content: space-between;
+    padding-top: 8rem;
+    align-items: flex-end;
+
+}
+
+.package-data h2 {
+    font-size: 6rem;
+    font-weight: 600;
+}
+
+.package-data p {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #878787;
+}
+
+.Package-btn {
+    align-items: flex-end;
+
+}
+
+.Package-btn .btn {
+
+    padding: 1.3rem 2.5rem;
+    font-size: 2rem;
+    font-weight: 500;
+    float: right;
+}
+
+button {
+    text-decoration: none;
+    padding: 1.6rem 2.3rem;
+    color: white;
+    background-color: black;
+    border-radius: 3rem;
+    font-size: 2.2rem;
+    border: none;
+}
+
+
+.country {
+    padding-top: 6.6rem;
+    row-gap: 1.5rem;
+}
+
+.card {
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 1rem;
+    margin: 0 9px;
+}
+
+.country-img {
+    height: 319px;
+}
+
+.country-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.country-data {
+    padding: 3.4rem 3.1rem 2.9rem 2.5rem;
+}
+
+.days {
+    display: flex;
+    justify-content: space-between;
+}
+
+.country-data h5 {
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.country-data h6 {
+    font-size: 2.4rem;
+    font-weight: 400;
+    flex-wrap: wrap;
+    padding-top: 5px;
+}
+
+.country-data p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #555555;
+    padding-top: 2.8rem;
+}
+
+.booking-now {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3.4rem;
+    align-items: center;
+}
+
+.booking ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.booking ul li {
+    color: rgb(244, 188, 97);
+    padding-right: 7px;
+}
+
+
+/* ------------blog Section-------- */
+
+#blog {
+    margin-top: 15rem;
+}
+
+.blog-data {
+    padding-top: 8rem;
+    row-gap: 60px;
+    justify-content: space-between;
+}
+
+.perfect {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+    padding: 1.2rem 1.8rem 4.5rem 2.6rem;
+    border-radius: 12px;
+    display: inline-block;
+}
+
+.Travel {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+    padding: 1.2rem 1.8rem 4.5rem 2.6rem;
+    border-radius: 12px;
+    display: inline-block;
+}
+
+.perfect h5 {
+    font-size: 2.4rem;
+    font-weight: 400;
+    padding-bottom: 3rem;
+    color: #000000;
+}
+
+.perfect h2 {
+    font-size: 3.6rem;
+    font-weight: 500;
+    color: #000000;
+
+}
+
+.perfect p {
+    font-size: 1.8rem;
+    color: #343434;
+    line-height: 3rem;
+    margin-bottom: 7.2rem;
+}
+
+.btn2 {
+    display: inline-block;
+}
+
+.blog-main {
+    padding-right: 6rem;
+}
+
+.Travel {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+    padding: 2.1rem 1.8rem 3.7rem 2.6rem;
+    display: inline-block;
+}
+
+.Tips {
+    row-gap: 5.8rem;
+    padding-right: 5rem;
+}
+
+.Travel h5 {
+    font-size: 2.4rem;
+    font-weight: 400;
+    padding-bottom: 3rem;
+}
+
+.Travel h2 {
+    font-size: 3.6rem;
+    font-weight: 500;
+}
+
+.Travel p {
+    font-size: 1.8rem;
+    color: #343434;
+    line-height: 3rem;
+    padding-bottom: 70px;
+}
+
+.stories {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 1.2rem;
+}
+
+
+.stories-img img {
+    width: 100%;
+    height: 679px;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.stories-data {
+    padding: 1.2rem 6.2rem 5.2rem 6rem;
+    display: inline-block;
+}
+
+.stories-data h5 {
+    font-size: 2.4rem;
+    font-weight: 400;
+    padding-top: 1.2rem;
+}
+
+.stories-data h2 {
+    font-size: 3.6rem;
+    font-weight: 500;
+}
+
+.stories-data p {
+    padding-top: 1.8rem;
+    font-size: 1.8rem;
+    color: #343434;
+    line-height: 30px;
+    padding-bottom: 8.4rem;
+}
+
+
+/* ----------------Contact section--------------- */
+
+#contact {
+    margin-top: 15rem;
+}
+
+
+.form-data {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 7.5rem 4.1rem 7.4rem 4.1rem;
+    border-radius: 1rem;
+}
+
+.form-data input {
+
+    padding: 1.7rem 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid gray;
+
+}
+
+
+textarea {
+    font-size: 1.8rem;
+    padding: 1.3rem 1.8rem;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.btn3 {
+    margin-top: 4.7rem;
+    padding: 1.5rem 8rem;
+    width: 100%;
+    font-size: 3.2rem;
+    border-radius: 4rem;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.Contact-data {
+    margin-top: 8rem;
+    align-items: center;
+    row-gap: 6rem;
+}
+
+
+
+.getin-data h2 {
+    font-size: 6rem;
+    font-weight: 600;
+}
+
+.getin-data p {
+    font-size: 1.8rem;
+    color: var(--secondary-color);
+    padding-top: 1.2rem;
+}
+
+.Lhoksemawe {
+    padding-top: 4.7rem;
+}
+
+.Lhoksemawe h4 {
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 2.5;
+}
+
+.Lhoksemawe ul {
+    list-style-type: none;
+}
+
+.Lhoksemawe ul i {
+    margin-right: 6px;
+}
+
+.Lhoksemawe ul li {
+    padding-top: 2.3rem;
+}
+
+.Lhoksemawe ul li a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 1.7rem;
+}
+
+
+/* - -------- Subcribe Section--------- */
+
+#Subcribe {
+
+    margin-top: 15rem;
+    padding-bottom: 11.1rem;
+    background-color: #8d8888;
+}
+
+.special {
+    padding-top: 11.7rem;
+}
+
+.price-data h2 {
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+
+.Subscribe-send {
+    width: 67.6rem;
+    height: 7.2rem;
+    border-radius: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    position: relative;
+    z-index: 9999;
+    margin-top: 9.2rem;
+}
+
+.Subscribe-input {
+    padding: 2.2rem 0px 1.8rem 2.2rem;
+}
+
+.Subscribe-input input {
+    width: 50rem;
+    font-size: 2rem;
+    font-weight: 500;
+    border: none;
+    color: #9B9B9B;
+}
+
+.Subscribe-btn input {
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 1.1rem 2.2rem;
+    color: #FFFFFF;
+    background-color: #000000;
+    border-radius: 2.5rem;
+    margin: 1.2rem 1rem 0px 0px;
+    cursor: pointer;
+
+}
+
+
+/* -------------footer section------------*/
+
+.footer-data {
+    justify-content: space-between;
+    /* padding-bottom: 6rem; */
+    
+}
+
+.footer-data h2 {
+    font-size: 2.3rem;
+}
+
+.footer-data p {
+    font-size: 1.8rem;
+    color: #6C6C6C;
+    font-weight: 500;
+}
+
+.logo-data {
+    margin-top: 11.6rem;
+    padding-bottom: 16.6rem;
+
+}
+
+.logo-data img {
+    width: 75%;
+
+}
+
+.link {
+    margin-top: 11.1rem;
+
+}
+
+.link ul {
+    padding-top: 2.1rem;
+}
+
+.link ul li {
+    list-style-type: none;
+    line-height: 40px;
+}
+
+.link ul li a {
+    text-decoration: none;
+    color: #6C6C6C;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.link-data li a {
+    margin-left: 1rem;
+    font-family: 'Poppins';
+
+}
+
+
+/* ----- Last Section ------ */
+
+#copyright {
+    background-color: #000000;
+    color: white;
+    height: 80px;
+    text-align: center;
+    padding: 2.9rem 0px 2.8rem 0px;
+}
